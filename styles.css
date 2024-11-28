@@ -1,0 +1,135 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #171717;
+    color: white;
+}
+
+header {
+    background-color: #444444;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #DA0037; /* Red for the navigation text */
+}
+
+.user-cart i {
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #444444;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    color: #DA0037;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar input {
+    margin-right: 10px;
+}
+
+.sidebar button {
+    background-color: #DA0037;
+    border: none;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+main {
+    width: 80%;
+    padding: 20px;
+}
+
+.featured-game img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.featured-game h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.game-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.game-card {
+    background-color: #444444;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+}
+
+.game-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.game-card .price {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.game-card button {
+    background-color: #DA0037;
+    border: none;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+}
+
+footer {
+    background-color: #444444;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
