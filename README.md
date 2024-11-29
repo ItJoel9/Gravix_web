@@ -97,6 +97,7 @@ Individual pages for each featured game, including:
 |-- last.php               # The Last of Us Details
 |-- rdr2.php               # Red Dead Redemption 2 Details
 |-- spider.php             # Marvel's Spider-Man Details
+
 <br>
 
 ## Setup and Installation
