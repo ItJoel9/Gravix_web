@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Dead Redemption 2 - Gravix</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="logo (2).png">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: url('rdr2b.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #FFFFFF;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+            position: relative;
+        }
+
+        /* Dark overlay for readability */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: 1;
+        }
+
+        /* Header */
+        header {
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: linear-gradient(to right, #000000, #444444);
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            z-index: 10;
+        }
+
+        header a img {
+            max-width: 50px;
+            height: auto;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            color: #FFFFFF;
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #DA0037;
+        }
+
+        .content-wrapper {
+            display: flex;
+            justify-content: space-between;
+            max-width: 1200px;
+            width: 100%;
+            z-index: 2;
+            margin-top: 80px;
+        }
+
+        .game-details {
+            width: 55%;
+            background-color: rgba(34, 34, 34, 0.85);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+        }
+
+        .game-details h2 {
+            font-size: 2.8rem;
+            margin-bottom: 20px;
+        }
+
+        .game-details p {
+            font-size: 1.2rem;
+            line-height: 1.7;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        .price {
+            font-size: 2rem;
+            color: #DA0037;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .buy-button, .add-to-cart-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            background-color: #DA0037;
+            color: #FFFFFF;
+            text-decoration: none;
+            font-size: 1.2rem;
+            border-radius: 8px;
+            transition: background-color 0.3s ease, transform 0.2s;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+
+        .buy-button:hover, .add-to-cart-button:hover {
+            background-color: #FF4056;
+            transform: translateY(-3px);
+        }
+
+        .features {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        .features ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        .features ul li {
+            margin-bottom: 10px;
+        }
+
+        /* Trailer Section */
+        .trailer-section {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .trailer-section iframe {
+            width: 100%;
+            height: 315px;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Rating Summary */
+        .rating-summary {
+            background-color: #222222;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+            color: #FFFFFF;
+        }
+
+        .average-rating {
+            display: flex;
+            align-items: center;
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+
+        .star-rating {
+            color: gold;
+            margin-left: 10px;
+        }
+
+        .rating-bars {
+            margin-top: 20px;
+        }
+
+        .rating-bar {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+
+        .rating-bar div {
+            width: 20%;
+            font-size: 1rem;
+        }
+
+        .bar {
+            flex-grow: 1;
+            height: 10px;
+            background-color: #444444;
+            margin: 0 10px;
+            position: relative;
+            border-radius: 5px;
+        }
+
+        .bar-fill {
+            height: 100%;
+            background-color: gold;
+            border-radius: 5px;
+        }
+
+        /* Review Submission */
+        .review-section {
+            margin-top: 20px;
+        }
+
+        /* Side Image */
+        .fade-image {
+            width: 40%;
+            position: relative;
+        }
+
+        .fade-image img {
+            width: 100%;
+            border-radius: 15px;
+            object-fit: cover;
+        }
+
+        .fade-image::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+            z-index: 2;
+            border-radius: 15px;
+        }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            .content-wrapper {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .game-details {
+                width: 100%;
+            }
+
+            .fade-image {
+                width: 100%;
+                margin-top: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <?php
+    session_start();
+    $cartCount = isset($_SESSION['cart']) ? array_sum(array_column($_SESSION['cart'], 'quantity')) : 0;
+    ?>
+
+    <!-- Header Section -->
+    <header>
+        <a href="login.php"><img src="logo (2).png" alt="Gravix Logo"></a>
+        
+        <nav>
+            <a href="web_Gravix.php">Home</a>
+            <a href="about.php">About</a>
+            <a href="cart.php" class="cart-button">
+                Cart <span class="cart-count"><?php echo $cartCount; ?></span>
+            </a>
+        </nav>
+    </header>
+
+    <!-- Content specific to Red Dead Redemption 2 page goes here -->
+</body>
+</html>
