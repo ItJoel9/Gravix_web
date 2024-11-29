@@ -83,7 +83,6 @@ Individual pages for each featured game, including:
 
 ## File structure
 
-/
 |-- index.php              # Homepage
 |-- about.php              # About Gravix
 |-- cart.php               # Shopping Cart
