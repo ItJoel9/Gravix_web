@@ -143,8 +143,46 @@ Individual pages for each featured game, including:
 
 ## Images
 
+- Login page(login.php)
 <img width="1279" alt="login" src="https://github.com/user-attachments/assets/118d31d5-5963-4938-8992-aafb4e0f4641">
 
+- Register page(register.php)
+<img width="1279" alt="register" src="https://github.com/user-attachments/assets/0555bfee-862d-45db-b464-11eeefb74ddf">
+
+- Home page(index.php)
+<img width="1268" alt="Home page" src="https://github.com/user-attachments/assets/f0c94be5-6966-455b-b0d2-f9774ce9734e">
+
+- Cart(cart.php)
+<img width="1280" alt="cart" src="https://github.com/user-attachments/assets/e8b1672e-2da1-4003-b746-7cfc14c2c28f">
+
+- Buy(buy.php)
+<img width="1269" alt="checkout" src="https://github.com/user-attachments/assets/c4ddd296-8b37-409f-bf06-3c42629ed6d8">
+
+- Payment succesfull(Payment_conformed.php)
+<img width="1280" alt="payment successful" src="https://github.com/user-attachments/assets/ed79fc8b-5cee-4489-9a43-ed8c6d4ad5ea">
+
+- About(about.php)
+<img width="1280" alt="about" src="https://github.com/user-attachments/assets/1e3f5195-9e74-49f6-9f24-79c6f48f3d6e">
+
+- God of war page(gow.php)
+<img width="1268" alt="gow" src="https://github.com/user-attachments/assets/dbd17498-4fb1-4daf-8ac2-864af473fed4">
+
+- Marvel spider man page(spider.php)
+<img width="1268" alt="spider" src="https://github.com/user-attachments/assets/9e0a16c7-26aa-410d-9bfa-f94a92dddec8">
+
+- Last of us page(last.php)
+<img width="1267" alt="last" src="https://github.com/user-attachments/assets/846d5a0a-c30d-4578-90a1-11cd29610098">
+
+- Ghost of tsushima(ghost.php)
+<img width="1266" alt="ghost" src="https://github.com/user-attachments/assets/bbb00b06-f5c6-4480-ab69-76a1160c25c4">
+
+- Red Dead Redemption 2(rdr2.php)
+<img width="1266" alt="rdr2" src="https://github.com/user-attachments/assets/4157d9e4-a383-4d12-8bf2-7fbaf793ee9a">
+
+- Elden ring(elden.php)
+<img width="1269" alt="elden" src="https://github.com/user-attachments/assets/a09c5b9f-0986-4187-b2ac-ea87eabecc74">
+
+```
 
 Developed by: Joel K Mathews
 Game Images & Trailers: Respective game publishers and developers.
