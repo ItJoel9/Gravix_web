@@ -1,9 +1,12 @@
 # Gravix_web
+
+---
+
 ## Overview
 
 Gravix is an immersive gaming e-commerce platform offering a variety of games across multiple genres. This platform allows users to browse games, view details, purchase titles, and interact through reviews and ratings. Below is a detailed guide to the functionality and structure of the website.
+
 ---
-<br>
 
 ## Features
 1.Home Page (index.php)
