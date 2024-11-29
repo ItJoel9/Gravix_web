@@ -141,6 +141,11 @@ Individual pages for each featured game, including:
   - Add real payment processing options.
 <br>
 
+## Images
+
+<img width="1279" alt="login" src="https://github.com/user-attachments/assets/118d31d5-5963-4938-8992-aafb4e0f4641">
+
+
 Developed by: Joel K Mathews
 Game Images & Trailers: Respective game publishers and developers.
 
