@@ -182,7 +182,7 @@ Individual pages for each featured game, including:
 - Elden ring(elden.php)
 <img width="1269" alt="elden" src="https://github.com/user-attachments/assets/a09c5b9f-0986-4187-b2ac-ea87eabecc74">
 
-```
+---
 
 Developed by: Joel K Mathews
 Game Images & Trailers: Respective game publishers and developers.
