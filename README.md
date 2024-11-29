@@ -83,20 +83,20 @@ Individual pages for each featured game, including:
 
 ## File structure
 
--  index.php              #Homepage
--  about.php              # About Gravix
-- cart.php               # Shopping Cart
-- buy.php                # Checkout Page
-- login.php              # Login Page
-- register.php           # Registration Page
--  Payment_conformed.php  # Payment Confirmation
-- elden.php              # Elden Ring Details
-- ghost.php              # Ghost of Tsushima Details
-- gow.php                # God of War: Ragnarok Details
-- last.php               # The Last of Us Details
-- rdr2.php               # Red Dead Redemption 2 Details
-- spider.php             # Marvel's Spider-Man Details
-- style.css	             #Styles
+-  index.php --------------- # Homepage
+-  about.php --------------- About Gravix
+-  cart.php ---------------- Shopping Cart
+-  buy.php ----------------- Checkout Page
+-  login.php --------------- Login Page
+-  register.php ------------ Registration Page
+-  Payment_conformed.php --- Payment Confirmation
+-  elden.php --------------- Elden Ring Details
+-  ghost.php --------------- Ghost of Tsushima Details
+-  gow.php ----------------- God of War: Ragnarok Details
+-  last.php  --------------- The Last of Us Details
+-  rdr2.php  --------------- Red Dead Redemption 2 Details
+-  spider.php -------------- Marvel's Spider-Man Details
+-  style.css	-------------- Styles
 
 <br>
 
