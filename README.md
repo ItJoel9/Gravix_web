@@ -2,7 +2,7 @@
 ## Overview
 
 Gravix is an immersive gaming e-commerce platform offering a variety of games across multiple genres. This platform allows users to browse games, view details, purchase titles, and interact through reviews and ratings. Below is a detailed guide to the functionality and structure of the website.
-
+---
 <br>
 
 ## Features
@@ -64,7 +64,7 @@ Individual pages for each featured game, including:
 8.Payment Confirmation Page (Payment_conformed.php)
 
   - Displays a success message with confetti animation after a successful payment.
-
+---
 <br>
 
 ## Technologies Used
@@ -79,6 +79,7 @@ Individual pages for each featured game, including:
 
   - XAMPP: Development environment including Apache server and MySQL for local testing.
 
+---
 <br> 
 
 ## File structure
@@ -99,6 +100,7 @@ Individual pages for each featured game, including:
 -  style.css	-------------- Styles
 
 <br>
+---
 
 ## Setup and Installation
 
@@ -117,6 +119,8 @@ Individual pages for each featured game, including:
   - Update database credentials in the PHP files if necessary.
 
 <br>
+
+---
 
 ## Future Updates
 
@@ -140,6 +144,8 @@ Individual pages for each featured game, including:
 
   - Add real payment processing options.
 <br>
+
+---
 
 ## Images
 
